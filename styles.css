@@ -1,0 +1,43 @@
+#upstruck{
+  width: 350px;
+  height: 150px;
+  background:url("images/upsTruck.jpg") no-repeat;
+  display: inline-block;
+}
+
+#upstruck:hover{
+  background: url("images/upsVroom.jpg") no-repeat;
+}
+
+#schoolbus{
+  width: 350px;
+  height: 150px;
+  background:url("images/schoolBus.jpg") no-repeat;
+  display: inline-block;
+}
+
+#schoolbus:hover{
+  background: url("images/schoolVroom.jpg") no-repeat;
+}
+
+#priuscar{
+  width: 350px;
+  height: 150px;
+  background:url("images/priusCar.jpg") no-repeat;
+  display: inline-block;
+}
+
+#priuscar:hover{
+  background: url("images/priusVroom.jpg") no-repeat;
+}
+
+#lastrental{
+  width: 350px;
+  height: 150px;
+  background:url("images/lastRental.jpg") no-repeat;
+  display: inline-block;
+}
+
+#lastrental:hover{
+  background: url("images/lastVroom.jpg") no-repeat;
+}

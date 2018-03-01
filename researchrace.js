@@ -3,12 +3,19 @@ raceCanvas.width=window.innerWidth;
 var c=raceCanvas.getContext("2d");
 var img=new Image();
 
-x=50;
-y=0;
+var x=50;
+var dx=1;
 function animation(){
+  var points=0;
   img.src="images/lastRental.jpg";
-  requestAnimationFrame(animation);
+  id=requestAnimationFrame(animation);
   c.drawImage(img, x, 50);
-  x+=1;
-  document.getElementById('questionPlace').innerHTML="Here's your answer";
+  if(x>innerWidth){
+    dx=-dx;
+  }
+  x+=dx;
+  if(x>90){
+    cancelAnimationFrame(id);
+  }
 }
+

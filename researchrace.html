@@ -10,22 +10,74 @@
        <!--Here the player will pick his car-->
        <h2> Pick your car</h2>
        <div id="upstruck">
-        <input type="button" name="upsTruck" value="UPS Truck">
        </div>
        <div id="schoolbus">
-        <input type="button" name="schoolBus" value="School Bus">
        </div>
        <div id="priuscar">
-        <input type="button" name="priusCar" value="Prius">
        </div>
        <div id="lastrental">
-        <input type="button" name="lastRental" value="Last Rental" onclick="animation()">
+       </div>
+       <div id="selectcar">
+         <p>Driver, select your car!</p>
+         <select id="carname" size="4">
+           <option>UPS Truck</option>
+           <option>School Bus</option>
+           <option>Prius</option>
+           <option>Last Rental</option>
+         </select>
        </div>
        <h2>Questions go below</h2>
-       <p id="questionholder1"></p>
-       <p id="buttonholder1"></p>
-       <p id="questionholder2"></p>
-       <p id="buttonholder2"></p>
+       <form id="questionfield">
+         <p id="question1">What's 20 + 20?</p>
+         <select id="answers1" size ="4" onchange="animation()">
+           <option value="38">38</option>
+           <option value="39">39</option>
+           <option value="37">37</option>
+           <option value="40">40</option>
+         </select>
+         <p id="question2">What's 20 + 20?</p>
+          <select id="answers1" size ="4" onchange="animation()">
+           <option value="38">38</option>
+           <option value="39">39</option>
+           <option value="37">37</option>
+           <option value="40">40</option>
+         </select>
+         <p id="question3">What's 20 + 20?</p>
+          <select id="answers1" size ="4" onchange="animation()">
+           <option value="38">38</option>
+           <option value="39">39</option>
+           <option value="37">37</option>
+           <option value="40">40</option>
+         </select>
+         <p id="question4">What's 20 + 20?</p>
+          <select id="answers1" size ="4" onchange="animation()">
+           <option value="38">38</option>
+           <option value="39">39</option>
+           <option value="37">37</option>
+           <option value="40">40</option>
+         </select>
+         <p id="question4">What's 20 + 20?</p>
+          <select id="answers1" size ="4" onchange="animation()">
+           <option value="38">38</option>
+           <option value="39">39</option>
+           <option value="37">37</option>
+           <option value="40">40</option>
+         </select>
+         <p id="question4">What's 20 + 20?</p>
+          <select id="answers1" size ="4" onchange="animation()">
+           <option value="38">38</option>
+           <option value="39">39</option>
+           <option value="37">37</option>
+           <option value="40">40</option>
+         </select>
+         <p id="question4">What's 20 + 20?</p>
+          <select id="answers1" size ="4" onchange="animation()">
+           <option value="38">38</option>
+           <option value="39">39</option>
+           <option value="37">37</option>
+           <option value="40">40</option>
+         </select>
+       </form>
        <!--Here will go the canvas-->
        <br />
        <canvas id="racecanvas" height="400">
